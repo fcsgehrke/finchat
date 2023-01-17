@@ -1,0 +1,18 @@
+# USERS
+POST /api/v1/users
+POST /api/v1/users/{id}/login
+POST /api/v1/users/{id}/email-request
+POST /api/v1/users/{id}/email-confirm
+
+# ROOMS
+POST /api/v1/rooms
+GET  /api/v1/rooms
+GET  /api/v1/rooms/{id}/ws
+POST /api/v1/rooms/{id}/message
+
+- Add Dockerfile
+- Swagger
+- Bot
+- Tests
+
+- Frontend Integration
